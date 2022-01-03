@@ -2,30 +2,71 @@
   "status": "active",
   "network_type": "testnet",
   "chain_name": "Juno",
-  "chain_id": "astarte-3",
+  "chain_id": "uni",
   "bech32_prefix": "juno",
   "daemon_name": "junod",
   "node_home": "$HOME/.juno",
   "genesis": {
-    "genesis_url": "https://raw.githubusercontent.com/CosmosContracts/testnets/main/astarte-3/genesis.json",
+    "genesis_url": "https://raw.githubusercontent.com/CosmosContracts/testnets/main/uni/genesis.json",
     "genesis_zipped": false
   },
   "codebase": {
     "git_repo": "https://github.com/CosmosContracts/Juno",
-    "recommended_version": "v2.0.6",
+    "recommended_version": "v2.0.0-beta.3",
     "compatible_versions": [
-      "v2.0.6"
+      "v2.0.0-beta.3"
     ],
     "binaries": {
-      "linux/amd64": "https://github.com/CosmosContracts/juno/archive/refs/tags/v2.0.6.zip"
+      "linux/amd64": "https://github.com/CosmosContracts/juno/archive/refs/tags/v2.0.0-beta.3.zip"
     }
   },
   "peers": {
-    "seeds": [],
+    "seeds": [
+      {
+        "id": "b2ef97b03c049c39a975b7845abe40fb3e48ee36",
+        "address": "juno-uni-seed.artifact-staking.io:26656"
+      },
+      {
+        "id": "17b42def9d3a43a030a5a2824dd7344fc2bc70ba",
+        "address": "35.209.191.98:26656"
+      },
+      {
+        "id": "ee6ed9bdd7d61e6521e8711626b32084f2ee5be6",
+        "address": "159.203.161.68:26656"
+      }
+    ],
     "persistent_peers": [
       {
-        "id": "1cc26ba519ef4d75f95047d2694f69edc3e62a11",
-        "address": "38.146.3.180:26656"
+        "id": "b2ef97b03c049c39a975b7845abe40fb3e48ee36",
+        "address": "216.238.71.243:26656"
+      },
+      {
+        "id": "34e9b3698c0a0fc7e5a8c16dc63b4d913c496c2d",
+        "address": "206.189.151.85:26656"
+      },
+      {
+        "id": "7ff7fd0119b104f659810ece82e9cefe2819bb33",
+        "address": "128.199.97.8:26656"
+      },
+      {
+        "id": "a1d3e3e6615f8eded91b012c69edb6b1bb0f5e42",
+        "address": "161.97.187.234:26656"
+      },
+      {
+        "id": "cdfdd1735bad77c49290e9485b8eb49fbd61ca4d",
+        "address": "178.128.36.63:26656"
+      },
+      {
+        "id": "4a91597dfe3ec715bbf6def225066fbb6ad86cfe",
+        "address": "207.180.204.112:36656"
+      },
+      {
+        "id": "15bbe91a29693284c4c13138550ea0b6a34f9c42",
+        "address": "137.184.11.214:26656"
+      },
+      {
+        "id": "b5377aa9885c69e154820d19be6c87c3d3c34d14",
+        "address": "65.108.85.61:26656"
       }
     ]
   },
